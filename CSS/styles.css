@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+
+:root{
+    --color-red: #f03c42;
+    --bg_light-gray: #E5E5E5;
+    --text-gray: #5E5E5E;
+    --color-yellow: #FFF964;
+    --color-white: #fff;
+    --text-green: #02B814;
+}
+
+*{
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a, a:hover{
+    color: unset;
+    text-decoration: none;
+}
+
+header{
+    height: 70px;
+    background-color: var(--color-red);
+    display: flex;
+    align-items: center;
+    padding: 0px 15px;
+}
+
+nav h1{
+    color: var(--color-yellow);
+    font-size: 24px;
+    text-align: center;
+}
+
+.container{
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+#pizzas{
+    padding: 20px 15px;
+    background-color: var(--bg_light-gray);
+}
+
+.pizza-card{
+    display: flex;
+    margin: 20px 0px;
+}
+
+.pizza-card img{
+    border-radius: 12px 0px 0px 12px;
+    width: 200px;
+}
+
+.pizza-card-description{
+    background-color: var(--color-white);
+    border-radius: 0px 12px 12px 0px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pizza-card-description h3{
+    font-size: 24px;
+    color: var(--text-gray);
+}
+
+.pizza-card-description p{
+    font-size: 14px;
+    color: var(--text-gray);
+}
+
+.pizza-card-description h4{
+    font-size: 24px;
+    color: var(--text-green);
+}    
+
+#comments{
+    padding: 20px 15px;
+}
+
+#comments h2{
+    text-align: center;
+    color: var(--text-gray);
+    font-size: 32px;
+}
+
+.card-comment{
+    padding: 25px 20px;
+    background-color: var(--color-yellow);
+    color: var(--color-red);
+    border-radius: 12px;
+    margin: 20px 0px;
+}
+
+footer{
+    padding: 0px 15px;
+    height: 120px;
+    background-color: var(--color-red);
+    color: var(--color-yellow);
+    display: flex;
+    align-items: center;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-content a{
+    font-size: 16px;
+}
+
+.footer-content address{
+    font-size: 16px;
+}
+
+
